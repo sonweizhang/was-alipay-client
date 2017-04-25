@@ -1,0 +1,118 @@
+@charset "gb2312";
+/* CSS Document */
+/*2013.5.17店铺资讯页面*/
+.po1{ position:relative;}
+.po2{ position:absolute; top:6px; width:525px; text-align:left;}
+.l1{ left:130px; _left:130px; top:7px!important; top:2px;}
+.l2{ left:660px; top:7px}
+.l3{ left:468px;}
+.l4{ left:110px}
+.l5{left:210px; top:7px!important; top:2px;}
+
+.tag02 dt.fl{ float:left; }
+.form input.text180{ width:180px; height:23px; color:#ccc}
+.form input.in_50{ width:50px; height:20px; border:1px solid #31b1ec; line-height:20px}
+.s0517s{}
+.s0517s input{ vertical-align:middle; margin:0 8px}
+.inf_ztab tr td{ border:1px solid #ccc}
+.inf_ztab thead tr th{ font-weight:bold;}
+.inf_ztab tfoot tr td{ background:#efefef; padding-left:30px; text-align:left;}
+.yf_template_tbl ul.wid{overflow:hidden;}
+#pagelist ul li input.h{ height:20px; line-height:20px}
+.inf_ztab tbody tr td.left_td{ text-align:left; padding-left:10px;}
+.inf_ztab tbody tr td.pd_33{ padding-left:33px;}
+.inf_ztab tr td{ padding:5px}
+.form input.in_co{ border-color:#ccc}
+.m_26{ margin-top:26px;}
+.tag02 dd .m_26 a{ color:#044985}
+.mt2{ margin-top:2px;}
+.inf_ztab tfoot tr td.pad_l{ padding-left:16px;}
+.inf_ztab tfoot tr td.pad_l .l_span{ line-height:24px }
+.inf_ztab tfoot tr td.pad_l .l_span input{ vertical-align:middle;  margin-right:10px;}
+.form input.in_text{ text-align:center;}
+.in_text{ margin:0 auto}
+.yf_template_tbl .w137{ width:98px}
+.yf_template_tbl .w110{ width:73px}
+.yf_template_tbl .w137 li, .yf_template_tbl .w110 li{ float:none}
+.yf_template_tbl .select_w119{ width:70px}
+.yf_template_tbl .select_w100{ width:45px}
+.ml40{ margin-left:23px; display:inline;}
+.ml25{ margin-left:14px; display:inline;}
+.img_bor{ border:1px solid #ccc; padding:1px}
+
+.b_org{ color:#ff6600; font-weight:normal;}
+.b_blu{ color:#044985; font-weight:normal;}
+.b_gr{ color:#999; font-weight:normal;}
+.dis_in{ display:inline-block;}
+.w190{ width:190px; text-align:left; margin-left:5px}
+/*添加分类弹出框*/
+.w175{ width:175px; height:23px; border:1px solid #ccc; display:inline-block}
+.w175px{ width:176px;}
+/*.border-no{ border-bottom:medium none; padding-left:20px; width:340px}*/
+.border-no{ border-bottom:medium none; width:340px}
+.textC{ text-align:center;}
+.mt75{ margin-top:75px;}
+.w450{ width:450px;}
+/*#pagelist ul li input.sub123{ width:46px; height:24px; background:url(../images/btn01.gif) 0 -157px; border:0; cursor:pointer; vertical-align:middle}
+#pagelist ul li span{ line-height:24px; display:inline-block;}
+#pagelist ul li input{ vertical-align:middle;}
+.select .slt-option ul li a.cur{ background:#efefef; border-bottom:1px solid #ccc}
+.select .slt-option ul li a.cur:hover{ color:#333}*/
+.yf_template_tbl ul.w137, .yf_template_tbl ul.w110{ padding:0; overflow:hidden; float:left; text-align:center}
+
+
+/*2013.5.21发布资讯样式*/
+.yh-form  .box_pad{ padding:14px 0 0 10px;}
+.box_mestab tr td, .box_mestab tr th{ padding:12px 0; color:#333}
+.box_mestab tr td{ padding:0 0 0 10px; text-align:left;}
+.box_mestab tr td a.a04{ color:#044958}
+table.box_mestab tr th{ text-align:right; width:80px; }
+.box_mestab tr th b{ color:#fd1717; vertical-align:middle;}
+.box_mestab tr td input.w400{ width:400px;}
+.box_mestab tr td img{ padding:1px; border:1px solid #cccccc}
+.v_top{ vertical-align:top}
+.mt55{ margin-top:55px}
+.edit_div{ margin:0 0 15px 88px}
+.mes_but{ text-align:center; margin-bottom:20px}
+.form input.textHover{ background-img:none; background-color:#fff}
+.input-focus{ color:red;}
+.input-default{ color:#ccc}
+
+/*2013.6.17*/
+.p1{height:22px; padding:2px 0;}
+.p2{height:22px; padding:2px 0;}
+.form input.w135{width:135px; left:514px; top:7px;}
+
+/* wxm 7.05 */
+
+/*.yf_template_tbl {margin-top: -12px;}*/
+.ml75 { margin-left:75px;}
+.width455 { width:455px;}
+.border-no390 {height:130px;margin:0 10px;}
+
+.gt_bg { background: url("../../images/tsb.gif") no-repeat scroll left center transparent; color: #333333; font-size: 14px;
+ font-weight: bold; height: 116px; margin: 85px 0 115px 175px; padding: 0 0 0 110px; text-align:left; line-height:116px;}
+.gt_bg a { color:#0000FF; text-decoration:underline;}
+.demo { padding:0; margin:0;}
+
+/* wxm 8.13 */
+p.img3 { text-align:center; width:154px; display:inline; float:left;}
+p.img3 span{ width:120px; height:150px; border:1px #CCC solid; display:table-cell; vertical-align:middle; text-align:center; *display:block; *font-size:150px; overflow:hidden;}
+p.img3 i{ display:block; width:150px; text-align:center;}
+p.img3 img { width: expression(this.width > 150 && this.width > this.height ? 150 : true); height: expression(this.height > 150 ? 150 : true); vertical-align:middle; max-width:150px; max-height:150px; margin-left:auto; margin-right:auto;}
+
+p.img1 { text-align:center; width:84px; display:inline;}
+p.img1 span{ width:80px; height:80px; border:1px #CCC solid; display:table-cell; vertical-align:middle; text-align:center; *display:block; *font-size:80px; overflow:hidden;}
+p.img1 i{ display:inline-block; width:80px; text-align:center;}
+p.img1 img { width: expression(this.width > 80 && this.width > this.height ? 80 : true); height: expression(this.height > 80 ? 80 : true); vertical-align:middle; max-width:80px; max-height:80px; margin-left:auto; margin-right:auto;}
+
+
+/* wxm 设置域名 */
+.ymtab { position:relative;}
+.ymtab tr td,.ymtab tr th{ padding:12px 0; color:#333}
+.ymtab tr td{ padding:0 0 0 10px;}
+.ymtab tr th{ text-align:left; }
+.ymtab tr th b{ color:#fd1717; vertical-align:middle;}
+.ymtab tr td input.w400{ width:400px;}
+.ymtab tr td img{ padding:1px; border:1px solid #cccccc}
+.ymtab tr td em.mrym { background:url(../../images/ico4.gif) no-repeat; padding-left:22px; margin-left:10px; color:#666; line-height:16px; height:16px; display:inline-block;}

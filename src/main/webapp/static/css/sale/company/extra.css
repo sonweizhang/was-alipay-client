@@ -1,0 +1,430 @@
+﻿/*山寨枭雄 样式*/ 
+body{ color:#f2d372; margin:0; padding:0; font-size:12px; font-family:Comic Sans MS; }
+html{cursor:default; scrollbar-face-color:#000; scrollbar-highlight-color:#000; scrollbar-shadow-color:#000; scrollbar-3dlight-color:#5a4405; scrollbar-arrow-color:#896d06;scrollbar-track-color:#200c03; scrollbar-darkshadow-color:#462e0c; overflow:hidden;}
+ul,li,h1,h2,h3,h4,h5,h6,div,form,p,input,dl,dt,dd,ol,textarea{ margin:0; padding:0;}
+ul,li{list-style-image:none;list-style-type:none;}
+img{ border:0;}
+a{text-decoration:none;}
+
+/*公用*/
+b,h5{ color:#ffffcc;}
+.Bk{border:1px solid #a6743d; width:564px; background:#2c0a00; position:absolute; z-index:100; filter:alpha(opacity=40); opacity:0.40; left:0;}
+.ShareTableBk{ position:absolute; z-index:100; left:0; filter:alpha(opacity=75); opacity:0.75;}
+.ShareTableBk .TopLeft{ width:8px; height:6px; line-height:6px; background:url(../../img/ui/ShareTableBk01.png);}
+.ShareTableBk .TopCenter{ background:url(../../img/ui/ShareTableBk02.png); line-height:6px;}
+.ShareTableBk .TopRight{ width:8px; height:6px; line-height:6px; background:url(../../img/ui/ShareTableBk03.png);}
+.ShareTableBk .Left{ background:url(../../img/ui/ShareTableBk04.png);}
+.ShareTableBk .Center{ background:url(../../img/ui/ShareTableBk05.png);width:100px; height:100px;}
+.ShareTableBk .Right{background:url(../../img/ui/ShareTableBk06.png);}
+.ShareTableBk .EndLeft{ width:8px; height:6px; line-height:6px; background:url(../../img/ui/ShareTableBk07.png);}
+.ShareTableBk .EndCenter{background:url(../../img/ui/ShareTableBk08.png);}
+.ShareTableBk .EndRight{ width:8px; height:6px; line-height:6px; background:url(../../img/ui/ShareTableBk09.png);}
+.ListBk {top:31px;}
+.ListBk .Center{ width:608px; height:294px;}
+.ListTowBk{top:0; left:5px;}
+.ListTowBk .Center{ width:598px; height:325px;}
+/*.Chief,.Friend,.Unino,.UninoList,.Battle,#FloatWindow,.Smelting,.OwnersAtt,.Owners,.AdminCenter,.UseProps,.Owners{ color:#f2d372;}*/
+textarea{ padding:0 2px;border:1px solid #796317; color:#FFFF99; width:80px; background-color:#1c0600;  height:16px;}
+input{ padding:3px 3px 0; border:1px solid #796317; color:#FFFF99; width:80px; background-color:#1c0600; height:14px; line-height:13px;}
+/*公用列表页*/ 
+.List{ top:31px; width:613px; left:5px;}
+.ListTow{ top:0px; width:600px; left:12px;}
+.UninoApp { z-index:101; position:absolute; empty-cells:show; border-collapse:collapse;}
+.UninoApp td { height:27px; line-height:25px;background:url(../../img/ui/ListTdBj.png) repeat-x bottom;text-align:center;}
+.UninoApp th { line-height:21px; height:21px; background:url(../../img/ui/ListThBj.png); padding-left:4px;}
+.UninoApp th b{background:url(../../img/ui/ListThBj.png) right top; display:block; padding-right:4px ;color:#d1aa66;text-align:center; font-size:12px;}
+.Find{ position:absolute; z-index:102; top:345px; left:10px; width:603px;}
+.Find .IptText{ padding:1px 2px 0; color:#FFFFCC; width:60px; float:left; position:relative; top:1px; line-height:14px; height:14px;}
+.Find b{ float:left; line-height:19px; line-height:19px; padding-left:4px;}
+.IptBut{ background:url(../../img/ui/IptButBj.png); float:left; height:16px; line-height:16px; padding-top:3px; color:#c39862; width:76px; text-align:center; margin:0 8px 0 4px;position:relative;}
+.IptBut span {display:block; position:absolute; left:0; top:3px; color:#ffeaab; width:100%; height:8px; overflow:hidden;}
+.Find .FindRight{ float:right; line-height:17px;}
+.Find .FindRight b{ display:block; width:57px; padding-right:9px; text-align:center; font-weight:normal;}
+.Find .FindRight .PageUp{ float:left; height:16px; width:54px; padding-top:3px; line-height:16px; color:#a76b27; position:relative; background:url(../../img/ui/FindRightBj.png); text-align:center; margin-left:4px;}
+.Find .FindRight .PageUp span{display:block; position:absolute; left:0; top:3px; color:#eac657; width:100%; height:8px; overflow:hidden;}
+.Find .FindRight #PageNo{padding-right:6px;}
+
+.ListHover td{ background:#502014; color:#ffc;}
+
+.BottomBorder{ position:absolute; z-index:102; top:4px; left:10px;}
+.BottomBorder .Lia{ height:24px; padding-top:3px; overflow:hidden; background:url(../../img/ui/ListTdBj.png) repeat-x bottom; clear:both; }
+.BottomBorder .Lia b{float:left; padding-left:10px; line-height:20px;}
+.BottomBorder .Lia span{float:left;}
+.BottomBorder .Lia input{float:left; height:15px; margin:0px 4px 0 0;}
+
+
+.OrdBtn{width:47px;height:20px;float:left; overflow:hidden;position:relative;text-align:center;color:#ded09d;margin-right:3px; line-height:21px; *line-height:23px;}
+.OrdBtn span{display:block;position:absolute;width:100%; left:0px;top:0px;text-align:center;height:11px;overflow:hidden;color:#f4e9c2; }
+.OrdBtnGreen{ background:url(../../img/ui/OrdBtnBj.png);}
+.OrdBtnRed{ background:url(../../img/ui/OrdBtnRed.png);}
+
+
+
+
+/******特殊窗口******/
+ 
+#ExQueueForm
+{    position:absolute;
+    width:320px;
+    height:93px;
+    border:0px solid red;
+    left:0px;
+    top:0px;
+    background-color:Transparent;
+    color:#ffc;
+    font-size:12px;
+    z-index:3;
+    padding:6px 0 6px 5px;
+    overflow-y:scroll;
+	}
+#ExQueueForm li
+{
+ 
+    border:0px solid red;
+    width:140px;
+    float:left;
+    margin:5px 2px 6px 3px;
+	}
+#ExQueueForm .ExQueueImg
+{
+ 
+    width:36px;
+    height:36px;
+    background:#000000;
+    overflow:hidden;
+    border:0px solid red;
+    float:left;
+	}
+#ExQueueForm .ExQueueImg img
+{
+    width:36px;
+    height:36px;
+	}
+#ExQueueForm .ExQueueTime
+{
+ 
+    width:90px;
+    height:16px;
+    _height:14px;
+    border:0px solid red; 
+    overflow:hidden;
+    margin:3px 0 0 6px;
+    font-size:10px;
+    float:left;
+	}
+#ExQueueForm .Steper
+{
+ 
+    width:0px;
+    height:5px;
+    float:left;
+    background:green;
+	}
+#ExQueueForm .ExQueueStep
+{
+ 
+    width:70px;
+    height:5px;
+    border:1px solid darkgreen;
+    float:left;
+    overflow:hidden;
+    margin:8px 2px 0px 0px;
+	}
+#ExQueueForm .ExQueueDel
+{
+ 
+    width:10px;
+    height:8px;
+    border:0px solid darkgreen;
+    float:left;
+ 
+    overflow:hidden;
+    margin:8px 0px 0px 7px;
+	}
+#ExQueueForm .ExQueueUp
+{
+ 
+    width:10px;
+    height:8px;
+    border:0px solid darkgreen;
+    float:left;
+    overflow:hidden;
+    margin:8px 0px 0px 0px;
+	}
+	
+ 
+  
+ /* 下拉框组件 */
+  
+ .DropMenu
+ {
+   font-family:Tahoma;
+   text-indent:3px;
+   float:left;
+   position:relative;
+   font-family:Tahoma;
+  }
+  
+  .DropMenu span
+ {
+ 	border:1px solid #796317;
+ 	width:auto;
+    height:16px; *height:15px; _height:16px;
+     
+    padding:1px 10px 2px 2px;
+    *padding:3px 10px 0 2px;
+    _padding:2px 10px 0 2px;
+    float:left;
+    font-size:12px;
+    cursor:pointer;
+    color:#FFFF99;
+    background:#280505;
+    background-image:url(../../img/ui/DropMenuBg.png);
+    background-repeat:no-repeat;
+    background-position:right;
+    overflow:hidden;
+ 	}
+ .DropMenu ul
+ {
+ 	 
+    position:absolute;
+    z-index:311;
+    left:0px;
+    top:19px;
+    width:auto;
+    color:Green;
+    height:auto;
+    overflow:auto;
+    overflow-x:hidden;
+    display:none;  
+	scrollbar-face-color:#650e0e;
+	scrollbar-highlight-color:#650e0e;
+	scrollbar-shadow-color: #69250f;
+	scrollbar-3dlight-color: #803f28;
+	scrollbar-arrow-color: #b17f1c;
+	scrollbar-track-color: #532c1c;
+	scrollbar-darkshadow-color: #222;
+    border:1px solid #796317; 
+    padding:1px; 
+    background:#280505;
+ 	}
+ .DropMenu li
+ {
+    height:16px;
+    overflow:hidden;
+    line-height:15px;
+    padding:1px 0 2px 2px;
+    _padding:2px 0 0 2px;
+    cursor:pointer;
+    color:#FFFF99;
+    overflow:hidden;
+ 	}
+
+
+  
+
+
+
+#TileInfo
+{
+	position:absolute;
+    height:auto; 
+    width:145px;
+	z-index:99000;
+	color:white;
+	background-color:Black;
+	border:1px solid #555;
+	padding:6px 4px 7px 7px;
+	font-size:12px;
+	display:none;   
+    font-family:Tahoma;
+	}
+#TileInfo .tileName
+{ 
+    color:#fff;
+    float:left;     
+    width:110px;
+    height:21px;
+    overflow:hidden;  
+    font-size:12px; 
+	}
+#TileInfo .tileType
+{
+    color:#ccc; 
+    float:right; 
+	width:35px;
+    height:21px; 
+    text-align:right;  
+	}
+#TileInfo .stuff
+{  
+    color:#5ff; 
+    float:left;
+    width:120px; 
+	}
+#TileInfo .attr
+{   
+    color:#ff5;  
+    float:left;
+    width:140px;
+    font-size:12px;
+	}
+#TileInfo .extra
+{ 
+    color:#5f5;
+    float:left;
+    width:120px;
+    height:auto; 
+	}
+#TileInfo .inlay
+{ 
+	float:left;
+    color:#5ff;
+    width:120px;
+	}
+#TileInfo b
+{ 
+    color:#1e9;
+    font-size:11px; 
+    font-weight:normal;
+	}
+#TileInfo .tileProfile
+{ 
+    color:#f7ef83;
+    margin-top:5px;  
+    width:100%; 
+    float:left;
+	}
+.itemLv_0  /*白装 普通*/
+{
+	color:#fff;
+	}
+.itemLv_1  /*绿装 优质*/
+{
+	color:#5f5;
+	}
+.itemLv_2  /*蓝装 精良*/
+{
+	color:#5cf;
+	}
+.itemLv_3  /*紫装 稀有*/
+{
+	color:#b54ffd;
+	}
+.itemLv_4  /*粉装 史诗*/
+{
+	color:#e569fd;
+	}
+	
+	
+#DragItem /*拖拽的道具*/
+{ position:absolute;width:54px;height:54px;z-index:103;left:100px;top:100px;display:none; background:url(../../img/ui/EquipmentZ.png) no-repeat}
+#DragItem img 
+{width:47px; height:47px; float:left; padding:3px 0 0 3px;position:absolute; z-index:102;}
+#DragItem em{ position:absolute; width:auto; top:3px;right:3px; z-index:103; height:14px; color:#5f5;font-style:normal;text-align:right;font-size:9px;background:#000;filter:alpha(opacity=80); opacity:0.80;padding:0 2px 0 2px;right:3px;top:3px;}
+
+ 
+  /* 导航和通用按钮 */
+  
+.MenuBtn
+  { 
+    line-height:23px;
+    *line-height:25px; 
+  	}
+.MenuBtn li
+  {   
+    width:69px;
+    height:22px;
+    float:left; 
+    overflow:hidden;
+    position:relative;
+    text-align:center;
+    color:#c39862;
+    margin-right:5px;
+  	}
+.MenuBtn span
+  { 
+    display:block;
+    position:absolute;
+    width:100%;
+    left:0px;
+    top:0px;
+    text-align:center;
+    height:12px;
+    overflow:hidden;
+    color:#ffeaab; 
+  	}
+.MenuBtn .normal
+  { 
+    background-image:url(../../img/ui/MenuBtnD.png);  
+  	}
+.MenuBtn .active
+   {
+    background-image:url(../../img/ui/MenuBtnA.png);
+    color:#dbae4c;
+   }
+.CmdBtn
+{
+    width:58px;
+    height:20px;
+    float:left; 
+    overflow:hidden;
+    position:relative;
+    text-align:center;
+    color:#ded09d;
+    margin-right:5px;
+    background-image:url(../../img/ui/CmdBtnD.png);
+    line-height:21px;
+    *line-height:23px; 
+	}
+.CmdBtn span
+  { 
+    display:block;
+    position:absolute;
+    width:100%;
+    left:0px;
+    top:0px;
+    text-align:center;
+    height:11px;
+    overflow:hidden;
+    color:#f0e6c3; 
+  	}
+  /* 数字限定输入框 */
+  
+ .numIpt
+ { 
+    background-image:url(../../img/ui/numIptBg.png);
+    background-position:right;
+    background-repeat:no-repeat;
+    height:16px; 
+ 	}
+  .numIptBox
+ {  
+    position:relative;
+ 	}
+ .numIptUp,.numIptDown
+ {
+   position:absolute;
+   z-index:300; 
+   width:16px;
+   height:9px; 
+   overflow:hidden;
+   filter:alpha(opacity=0);
+   opacity:0; 
+   display:block; 
+   background-repeat:no-repeat;
+   overflow:hidden;
+   margin:0;
+   padding:0;
+	}
+ .numIptUp 
+ {
+   background-image:url(../../img/ui/numIptUp.png);
+   top:3px;
+	}
+ .numIptDown 
+ {
+   background-image:url(../../img/ui/numIptDown.png);
+   top:12px;
+	}
+ 

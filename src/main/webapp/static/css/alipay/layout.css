@@ -1,0 +1,113 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*2013-04-28艳红*/
+h1,h2,h3,h4,h5,h6{font-size:14px;}
+table{ border-collapse:collapse;}
+.mt40{margin-top:40px;}
+.line24{line-height:24px;}
+.line30{line-height:30px;}
+i{ font-style:normal;}
+.yh-red{ color:#fd1717;}
+.col-c{color:#cccccc;}
+a.yh-blue{ color:#044985;}
+.text-w1{width:282px;}
+.text-w110{ width:110px;}
+.text-w39{width:39px;}
+.text-w52{width:52px;}
+.text-w143{width:143px;}
+.align-bottom{ vertical-align:bottom;}
+.no-border td{border:none;}
+.altow{ background:#ffe5cc;}
+.over{background:#ffe5cc;}
+.yh-use{background:#6699ff;}
+.yh-use td{color:#ffffff;}
+.w204 { width:204px;}
+.my-sel_btn{margin-left:10px;margin-top:5px;}
+.my-sel_btn a.btnGray2 span,.my-sel_btn2 a.btnGray2 span,.create_template a.btnGray2 span,.last_beizhu a.btnGray2 span,.setCarriage a.btnGray2 span,.foraspancolor a.btnGray2 span{color:#044985;} /*shx 添加了新类名 2013-5-8*/
+.my-sel_btn2{margin-top:10px;}
+/* wxm 2013.05.02 */
+.table_list{border:1px solid #e6e6e6; padding-top:1px;}
+.table_list th{background:#e8e8e8; height:33px; font-size:14px;} 
+.table_list td{border-bottom:1px dashed #e6e6e6; padding:14px 0; text-align:center;}
+.table_list td .bottom { padding:5px 0; height:24px; background:#eee; margin:0 10px; border:1px solid #ccc; text-align:left;}
+.w58 { width:58px;}
+.w85 { width:85px;}
+.w174 { width:174px;}
+.w155 { width:155px;}
+.w115 { width:115px;}
+.w329 { width:329px;}
+.nopic { width:60px; height:45px; border:1px solid #ccc;}
+a.edit { display:inline-block; width:13px; height:13px; background:url(../images/ico.png) no-repeat 2px -204px; vertical-align:middle;}
+a.up { display:inline-block; width:8px; height:14px; background:url(../images/jt.gif) no-repeat 0px 0px; vertical-align:middle;}
+a.down { display:inline-block; width:8px; height:14px; background:url(../images/jt.gif) no-repeat 0px -43px; vertical-align:middle;}
+/*shx 运费设置 2013-5-8*/
+.dt_bg2{background:#ffe5cc;}
+.template_warn{height:30px;background:#fffbdd;border:1px solid #e7d3ac;line-height:30px;padding:0 5px;margin:10px 0 15px 0;}
+.carriage_title a,.template_warn a{color:#0033cc;cursor:pointer;}
+
+.cf{zoom:1;}
+.cf:after{content:'';display:block;clear:both;height:0;overflow:hidden;visibility:hidden;}
+.clear{ clear:both; overflow:hidden; font-size:1px; line-height:1px; overflow:hidden;}
+
+/*------------------------------- shx 20140505 ------------------------------------*/
+/*提醒成功弹出条*/
+.order_turepop{position:fixed; left:50%; margin-left:-49px; top:50px;z-index:9999;}
+/*.order_turepop .cont {height:33px;width:228px;line-height:33px;text-align:center;background:#fff;border:1px solid #ff6600;color:#3c3c3c;}
+*/
+.cont .czSuc{color:#0067cb;text-decoration:underline;}
+.cont .czQues{color:#ff6702;}
+
+.order_turepop .cont,.order_errorpop .cont { float:left; height:29px; padding:10px 24px 0 28px;-webkit-box-shadow:0px 0px 5px #666;
+-moz-box-shadow:0 0px 5px #666;box-shadow:0 0px 5px #666;behavior: url(../../images/pie.htc); background:#fff; border:1px solid #ff6600;}
+.order_errorpop .cont { border:1px solid #ff0000; color:#ff0000;}
+
+/*-------------------------------------------- 库币金额 -------------------------------------*/
+.comIpt{height:28px;border:1px solid #e6e6e6;line-height:28px;vertical-align:middle;padding:0 5px;}
+
+.kubiNum{background:#fbfbfb;padding:18px 0;}
+.kubiNum p{padding-left:60px;font-size:14px;color:#3c3c3c;}
+.bdRed{font-size:22px;color:#fe0000;font-weight:bold;}
+.czNum{width:248px;}
+.kubiUse{height:28px;line-height:28px;width:958px;margin:10px auto 0;border:1px solid #f9dfb2;background:#ffffe0;color:#cc6600;padding-left:10px;}
+.kubiUse2{width:988px;}
+.bili{color:#ff0000;}
+.tishi{height:auto;padding:15px 20px;margin-top:20px;margin-bottom:10px;}
+.tishi p{line-height:22px;}
+.tsBd{font-size:14px;font-weight:bold;}
+
+/*--------------------------------------- 购买服务 ---------------------------------------------*/
+.redFF0000{color:#ff0000;}
+
+.buyTop{padding:20px 0;margin:0 20px;border-bottom:1px solid #e6e6e6;}
+.buyTop p{padding-left:65px;}
+.bigD{background:url(../../images/bigD.png) no-repeat;width:48px;height:48px;vertical-align:middle;display:inline-block;}
+.qxIpt{width:248px;}
+.redIpt{border:1px solid #ff0000;}
+.warnRed{background:url(../../images/prompt_icon.png) no-repeat 0 -19px;height:17px;line-height:17px;padding-left:25px;color:#ff0000;}
+.warnGreen{background:url(../../images/prompt_icon.png) no-repeat 0 -36px;height:17px;display:inline-block;width:17px;vertical-align:middle;}
+.yuEwarn{background:url(../../images/ye.png) no-repeat left center;padding-left:20px;display:inline-block;margin-left:25px;}
+a.clr0066CC{color:#0066cc;}
+.buyBtm{padding-top:0;}
+.buyBtm p{margin-top:35px;}
+.buyBtm .pl100{padding-left:100px;}
+
+/*------------------------------------------ 记录 -----------------------------------------*/
+.peomes_h2{height:44px;line-height:44px;border-bottom:1px solid #e6e6e6;}
+.orangeDiv{background:#ffffe0;border:1px solid #f9dfb2;height:58px;line-height:58px;padding-left:60px;font-size:14px;margin-top:10px;}
+.kbNm{font-size:22px;color:#fe0000;font-weight:bold;}
+.allJl{margin-top:10px;}
+.tabUl li{font-size:14px;color:#757575;font-weight:bold;text-align:center;border:1px solid #e6e6e6;height:29px;line-height:29px;width:88px;margin-right:10px;float:left;cursor:pointer;border-bottom:none;display:inline;}
+.tabUl li.active{color:#3c3c3c;border-bottom:1px solid #fff;margin-bottom:-1px;}
+.tabCon{border:1px solid #e6e6e6;padding:20px 10px;}
+.tabContent{display:none;}
+.w120{width:120px;}
+.w140{width:140px;}
+.w375{width:375px;}
+.jlTbl th{background:url(../../images/jlTh.gif) repeat-x;line-height:35px;border-top:1px solid #e6e6e6;}
+.bdlft{border-left:1px solid #e6e6e6;}
+.bdrgt{border-right:1px solid #e6e6e6;}
+.jlTbl td{height:40px;line-height:40px;text-align:center;overflow:hidden;border:1px solid #e6e6e6;}
+.jlTbl .txtRt{text-align:right;padding-right:10px;font-weight:bold;font-size:14px;}
+.jlTbl .greenBd{color:#339933;}
+.jlTbl .redBd{color:#ff0000;}
+.wjl{height:397px;width:100%;text-align:center;font-family:Microsoft Yahei, Hiragino Sans GB ;color:#757575;font-size:14px;padding-top:60px;}

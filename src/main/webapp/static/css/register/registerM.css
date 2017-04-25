@@ -1,0 +1,17 @@
+/*2015-11-27  绉诲姩鐗堢櫥褰曚慨鏀�/
+html{ font-size:62.5%;}
+body{position:relative; font:14px "SimHei","Microsoft Yahei","Hiragino Sans GB","Arial Narrow",HELVETICA; color:#333;line-height:160%;}
+*{ box-sizing:border-box;}
+a{ color:#333;}
+
+.header{ width:100%;}
+.header .logo{ margin-left:15px; display:block; width:100%; float:none;}
+.head_tle,.tel{ display:none;}
+.header .logo a{ display:block; text-align:center;}
+/*footer*/
+#t2010-copyright-footer-mob{ margin:0 auto; padding:12px 0 0;}
+.t2010-copyright-footer-mob{ padding:15px 0 6.5rem; margin-top:15px; background:#fff;}
+.t2010-copyright-footer-mob-con p{ text-align:center; font-size:1.3rem; line-height:1.8rem; color:#333;}
+.t2010-copyright-footer-mob-con p a{ color:#333; margin:0 8px;}
+input.check{ margin-right:5px; width:18px; height:18px; font-size:1.4rem; }
+.rememberMe_label{ cursor:pointer; color:#666; }

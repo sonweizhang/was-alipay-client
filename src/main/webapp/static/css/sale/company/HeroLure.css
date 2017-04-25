@@ -1,0 +1,12 @@
+﻿.CityNameBk{ left:5px;}
+.CityNameBk .Center{ width:300px; height:124px;}
+.CityName{ position:absolute; z-index:101; top:4px; left:10px; width:306px;}
+.CityName input{ width:40px;}
+.CityName .Lia .Sp1 { display:block; position:relative; top:-2px; width:55px;}
+.CityName .Lia .Sp1 b{ padding:0; margin:0;}
+.CityName .Lia .Sp1 input{ position:absolute; top:2px;}
+.CityName .B1{ background:url(../../../img/ui/ListTdBj.png) no-repeat repeat-x bottom; height:38px; padding-left:75px;}
+.CityName .B1 span{ display:block; border:1px solid #502000;}
+.CityName .B1 span span{  border:1px solid #000; background:#1c0600; display:block; padding:1px; line-height:14px;}
+#btn_ok{ z-index:101px;}
+.govButton{ position:absolute; z-index:101; left:120px; top:142px;}

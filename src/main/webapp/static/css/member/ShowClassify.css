@@ -1,0 +1,62 @@
+ul,li{ padding:0; margin:0;}
+.myf-sel {
+    line-height: 30px;
+}
+.mr5 {
+    margin-right: 5px;
+}
+.select, .dropDown {
+}
+.position {
+    position: relative;
+}
+.fl {
+    float: left;
+}
+ul,ol,li,dl,dt,dd{ list-style-type:none;font: 100 12px/18px "Microsoft Yahei","Hiragino Sans GB";}
+a{blr:expression(this.onFocus=this.blur());outline: none;}
+a:link,a:visited{ color:#333; text-decoration:none}
+a:hover,a:active{ color:#044985; text-decoration:underline}
+
+/*—°‘Ò∑÷¿‡*/
+.c-select{ float:left;}
+.c-select ul{ background:#fff;}
+.c-select ul{ padding:5px; overflow-x:hidden; overflow-y:auto;}
+.d-child{ margin-left:4px;}
+.c-select ul li{ height:23px; border:1px solid #fff; line-height:23px; padding:0 5px; cursor:pointer;}
+.c-select ul li.hoverbg{ border:1px solid #a6b6c3; background-color:#d6edf3;}
+.c-select ul li.selectbg{ border:1px solid #a6b6c3; background-color:#d6edf3;}
+.c-select ul li span{ display:inline-block; line-height:23px;}
+.c-select ul li input{ width:14px; height:14px; margin:0; padding:0; vertical-align:middle;}
+/*.d-select ul.slt-option li a{ display:block; height:20px; line-height:20px; padding:0 8px; overflow:hidden;}		
+.d-select ul.slt-option li a:hover{ background:#0066cc; color:#fff; text-decoration:none}		*/
+
+.industry-info {background-color: #E0EFFF; border: 1px solid #BFCFE6;font-family: Microsoft Yahei, Hiragino Sans GB;font-size: 12px; height: 281px; margin: 6px auto;width: 675px;}
+.choosed-show {background-color: #FFF7EC;border: 1px solid #E4CCB2; font-family: Microsoft Yahei, Hiragino Sans GB; font-size: 12px; height: auto; margin: 6px auto;padding: 6px 10px;width: 656px;}
+.choosed-show li { float: left;margin-right: 6px;white-space: nowrap;}
+
+
+.btn-box { text-align:right; background: none repeat scroll 0 0 #F7F7F7; border-top: 1px solid #EEEEEE; float: none;margin: 0;padding:10px ;width: auto;}
+.textR a { color: #FFFFFF;}
+a:link, a:visited { color:#333333; text-decoration: none;}
+.btnBlue{ background:url("../../images/btn01.gif") no-repeat scroll left -33px transparent; display:inline-block; height:37px; padding:0 0 0 28px; vertical-align:middle;}
+.btnBlue span{ background:url("../../images/btn01.gif") no-repeat scroll right -33px transparent; color:#FFFFFF; cursor:pointer; display:inline-block; font:100 14px/29px "Microsoft Yahei","Hiragino Sans GB"; height:29px; padding:4px 28px 4px 0;}
+.btnGray {
+	margin-left: 8px;
+    background: url("../../images/btn01.gif") no-repeat scroll left -78px transparent;
+    display: inline-block;
+    height: 37px;
+    padding: 0 0 0 28px;
+    vertical-align: middle;
+}
+.btnGray:link span, .btnGray:visited span {
+    color: #FFFFFF;
+}
+.btnGray span {
+    background: url("../../images/btn01.gif") no-repeat scroll right -78px transparent;
+    cursor: pointer;
+    display: inline-block;
+    font: 100 14px/29px "Microsoft Yahei","Hiragino Sans GB";
+    height: 29px;
+    padding: 4px 28px 4px 0;
+}

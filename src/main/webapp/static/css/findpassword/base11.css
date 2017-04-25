@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,form,ul,ol,li,dl,dt,dd,table,td,th,input,p{padding:0;margin:0;fon;font:100 12px/18px "Microsoft Yahei","Hiragino Sans GB";}
+ul,ol,li,dl,dt,dd{ list-style-type:none}
+h1,h2,h3,h4,h5,h6{ padding:0; margin:0;}
+img,object{ border:0; vertical-align:middle}
+a{blr:expression(this.onFocus=this.blur());outline: none;}
+a:link,a:visited{ color:#3c3c3c; text-decoration:none}
+a:hover,a:active{ color:#06c; text-decoration:underline}/*20140320*/i,em { font-style:normal}
+.cls{ font:0/0 "Microsoft Yahei","Hiragino Sans GB"; height:0; clear:both;}
+.clearfix{zoom:1}
+.clearfix:after{ content:"."; display:block; height:0; clear:both; overflow:hidden; visibility:visible}
+/*字体*/
+.fontRed{ font-style:normal; color:#fd1717;}
+.fontBlue{ font-style:normal; color:#06c;}
+.fontGray{ font-style:normal; color:#999}
+.fontGray6{ font-style:normal; color:#666}
+.fontOrange{ font-style:normal; color:#F60}
+.fontGreen{ color:#009900;}
+.fontBlod{ font-style:normal; font-weight:600;}
+.font14{ font-size:14px;}
+.fw{font-weight:bold;}
+.h4{ font:600 14px/20px ""Microsoft Yahei","Hiragino Sans GB""}
+
+/*链接样式*/
+a.linkBlue:link,a.linkBlue:visited{ color:#03c}
+a.linkBlue:hover,a.linkBlue:active{ color:#03c;}
+
+a.linkBlue2:link,a.linkBlue2:visited{ color:#044985}
+a.linkBlue2:hover,a.linkBlue2:active{ color:#044985;}
+
+a.linkBlue3:link,a.linkBlue3:visited{ color:#044985; text-decoration:underline;}
+a.linkBlue3:hover,a.linkBlue3:active{ color:#044985;}
+
+a.linkOrange:link,a.linkOrange:visited{ color:#f60}
+a.linkOrange:hover,a.linkOrange:active{ color:#f60;}
+
+a.linkGray:link,a.linkGray:visited { color:#666; text-decoration:underline}
+a.linkGray:hover,a.linkGray:active { color:#f60;}
+
+a.linkRed:link,a.linkRed:visited { color:#fd1717; text-decoration:underline}
+a.linkRed:hover,a.linkRed:active { color:#fd1717;}
+
+a.linkRed2:link,a.linkRed2:visited { color:#fd1717;}
+a.linkRed2:hover,a.linkRed2:active { color:#fd1717;}
+
+.fl{ float:left}
+.fr{ float:right}
+.textR{ text-align:right}
+.textC{ text-align:center}
+.position{ position:relative;}
+.none{ display:none}
+.displayl{ display:inline}
+.wrapper{ width:1000px; margin:0 auto;}
+/*表单样式*/
+.form input{ outline:none;}
+.form textArea{ padding:2px; resize:none; vertical-align:middle; border:1px solid #b5b5b5; color:#333; font-size:12px; outline:none }
+.form input.text,.calendar-input{ height:26px; padding:1px 2px; line-height:26px; border:1px solid #e6e6e6; color:#333; vertical-align:middle; background:#fff;}
+.form input.ht20{height:20px;}
+.form input.textHover{ background:#ffffe0 url(../images/text_hover.gif) repeat-x top}
+.form input.textErro{ background:#fff4d5 url(../images/text_erro.gif) repeat-x top}
+.form .radio{ margin-top:-3px; margin-right:3px; *margin-right:0px; _margin-right:0px; vertical-align:middle;}
+
+.form input.grayWarn{color:#999;}	/*shx 5.15 输入框未输入前 提示的浅灰色字体*/
+/*上下间距*/
+.mt38{ margin-top:38px}
+.mt20{ margin-top:20px}
+.mt10{ margin-top:10px}
+.mt14{ margin-top:14px}
+.mt5{ margin-top:5px}
+.mt3{ margin-top:3px}
+.mt64{ margin-top:64px;}
+.ml15{ margin-left:15px}
+.ml25{ margin-left:25px}
+.ml30{ margin-left:30px}
+
+.ml3{ margin-left:3px}
+.ml5{ margin-left:5px}
+.ml10{ margin-left:10px}
+.ml50{ margin-left:50px}
+.ml65 { margin-left:65px;}
+.ml135{margin-left:135px;}
+.mr5{ margin-right:5px}
+.mr10{ margin-right:10px}
+.mr14{ margin-right:14px}
+.mr15{ margin-right:14px; _margin-right:7px; _width:195px;}
+
+.mr75{margin-right:75px;}
+.pt64{ margin-top:64px}
+.pt60{ margin-top:60px}
+.pad0{padding:0;}
+.width600{ width:600px; padding-top:20px;}
+.width400{ width:400px; padding-top:14px;}
+.width750{ width:750px}
+.width385{ width:385px}
+.width270{ width:270px}
+.width415{ width:480px}
+.width720{ width:720px}
+.width718{ width:718px}
+.width601{ width:600px;}
+.width570{width:570px;}
+.ht600{ height:auto !important; height:600px; min-height:600px}
+/*shx 5.16*/
+.w160{width:160px;}
+.w170{width:170px;}
+.w180{width:180px;}
+.w138{width:138px;}
+.w350{width:350px;}
+
+/*交易专员右侧浮动*/
+.fu-jyzy{ position:fixed; right:0; top:200px;}
+.jy-shensuo{  width:26px; height:54px; background:#ff6600; float:left;border:1px solid #e6e6e6; border-right:none; font-size:14px; color:#FFF;font-family:""Microsoft Yahei","Hiragino Sans GB""; text-align:center; line-height:20px;}
+.jy-shensuo div{padding-top:4px; cursor:pointer;}
+.jy-main{ width:180px; height:334px; border:1px solid #e6e6e6; float:left; font-family:""Microsoft Yahei","Hiragino Sans GB"";color:#666; background:#FFF;}
+.jy-main div{height:60px;border-bottom:1px solid #e6e6e6;text-align:center;font-size:14px;color:#ff6600;background:#f8f8f8;padding-top: 10px;}
+/* .jy-main h2 span{ display:inline-block; width:27px; height:24px; background:url(../../images/findPassword/kefu-img.png); vertical-align:middle; margin-right:10px;} */
+.jy-main div .sss{display:inline-block;width: 48px;height: 35px;background: #f8f8f8 url(../../images/findPassword/l-sadd.gif) no-repeat 8px center;vertical-align:middle;margin-right: 10px;margin-left: -28px; margin-bottom: -11px;}
+.jy-main div .bbb{font-size: 15px;display: -webkit-inline-box;margin-top: -5px;margin-left: 43px;}
+.dis-hide{ display:none;}
+.dis-show{ display:block;}
+.jy-main ul{ border-bottom:1px dashed #dfdfdf; padding-bottom:10px;}
+.jy-main ul li{text-align:left;padding:13px 0 0 10px;vertical-align:middle;line-height:20px;}
+.jy-main ul li a{ display:inline-block; width:21px; height:20px; vertical-align:middle; margin-left:5px;}
+.jy-main ul li .lele a{background:url(../../images/findPassword/qier.png);}
+.jy-main ul li .lulu a{background:url(../../images/findPassword/qier.png);}
+.jy-main p{text-align: left; padding:10px 10px 5px 10px; line-height:20px; }
+
+/*流程五步 情况一*/
+.process-box{height:130px;}
+.process{padding-top:23px;color:#3c3c3c;height:98px;}
+.process p{width:701px;height:24px;margin-left:70px;background:url(../../images/process-node.png) no-repeat left top;}
+.process-2 p{background-position:left -25px;}
+.process-3 p{background-position:left -50px;}
+.process-4 p{background-position:left -75px;}
+.process-5 p{background-position:left -100px;}
+.process li{float:left;text-align:center;width:164px;line-height:18px;padding-top:10px;height:64px;}
+.process li b{display:block;font-weight:normal;}
+.process li.p5{position:relative}
+.process li.p5 s{position:absolute;top:-21px;left:0;right:0;text-align:center;text-decoration:none;color:#757575}
+.process-2 li.p1{color:#757575}
+.process-3 li.p1, .process-3 li.p2{color:#757575}
+.process-4 li.p1, .process-4 li.p2, .process-4 li.p3{color:#757575}
+.process-5 li.p1, .process-5 li.p2, .process-5 li.p3, .process-5 li.p4{color:#757575}
+.process-5 li.p5 s{color:#fff}

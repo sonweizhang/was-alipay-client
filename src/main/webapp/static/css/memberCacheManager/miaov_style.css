@@ -1,0 +1,33 @@
+body {background: #000 url(../../images/memberCacheManager/index.png) no-repeat center 230px;}
+/*body {background-color:#AAAAAA}*/
+#div1 {position:relative; width:450px; height:450px; margin: 20px auto 0; }
+#div1 a {position:absolute; top:0px; left:0px; font-family: Microsoft Yahei, Hiragino Sans GB; color:#fff; font-weight:bold; text-decoration:none; padding: 3px 6px; }
+#div1 a:hover {border: 1px solid #eee; background: #000; }
+#div1 .blue {color:blue;}
+#div1 .red {color:red;}
+#div1 .yellow {color:yellow;}
+
+p { font: 16px Microsoft Yahei, Hiragino Sans GB; text-align: center; color: #ba0c0c; }
+p a { font-size: 14px; color: #ba0c0c; }
+p a:hover { color: red; }
+
+#content{}
+.getCache{width:480px;height:350px;background-color:#ADFF2F;margin:120px 34%;border-radius: 40px 40px 40px 40px;}
+.tail{content: "";border: 0 solid transparent; border-bottom:30px solid #ADFF2F;-moz-border-radius:0 0 0 200px;-webkit-border-radius:0 0 0 200px;
+border-radius:0 0 0 200px;width:70px;height:70px;position:relative;margin:420px 41%;-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); 
+-ms-transform: rotate(-90deg); -o-transform: rotate(-90deg);position:absolute;top:50px;}
+
+.tdiv{position:relative;margin-left:0px;top:60px;}
+.tdiv table{position:relative;margin-left:30px;}
+.tdiv table tr{height:50px;}
+.tdiv table input,select{width:230px;height:30px;}
+#cache{width:230px;height:140px;}
+
+.tdiv .CacheBut{position:relative;margin-left:120px;margin-top:10px;}
+
+.btn_reset{style="display: none"}
+/*.navbar-default{background-color:#FF5511;border:1px solid #FF5511;}
+#bs-example-navbar-collapse-1 a{color:#FFFFFF;font-family:Microsoft Yahei, Hiragino Sans GB;}
+.active{background-color:#FF8800;}
+.dropdown-menu a{color:#000;}
+.zdyc{color:#000;}*/

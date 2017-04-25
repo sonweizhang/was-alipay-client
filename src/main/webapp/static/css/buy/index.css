@@ -1,0 +1,205 @@
+﻿@charset "utf-8";
+/*---------------------采购中心首页 wxm 2014.8.11 begin------------------------*/
+.seller_k1 { width:798px; padding:20px; border:1px solid #dfdfdf; zoom:1; overflow:hidden;}
+.num_p { top:-8px; right:0;}
+a.ck_btn {background:url(../../images/check_btn_bg.jpg) no-repeat; width:91px; height:22px; font:100 12px/22px "Microsoft Yahei","Hiragino Sans GB"; color:#fff; text-align:center; cursor:pointer; display:inline-block; *display:inline; zoom:1;}
+.seller_k2 { width:838px; border:1px solid #dfdfdf; border-top:none; zoom:1; /* overflow:hidden; */}
+.seller_k2 .w419 { width:419px; zoom:1;}
+
+.seller_k2 h2 { height:41px; font:100 14px/41px "Microsoft Yahei","Hiragino Sans GB"; padding-left:10px; border-bottom:1px solid #eee; background:#fafafa; display:inline-block; *display:inline; zoom:1;}
+.seller_k2 .w838 { width:838px;}
+.seller_k2 .w419.w419L h2 { width:408px; border-right:1px solid #eee; }
+.seller_k2 .w419 h2 { width:409px;}
+.seller_k2 .w419 h2 a.more { float:right; margin-right:10px; font:100 12px/41px "Microsoft Yahei","Hiragino Sans GB"; color:#3c3c3c;}
+.seller_k2 .w419 h2 a.more:hover { color:#f60;}
+
+.f12_999 { font:100 12px/41px "Microsoft Yahei","Hiragino Sans GB"; color:#999;}
+.bdr { border-right:1px solid #eee;}
+.h142 { height:142px; overflow:hidden;}
+
+/*---------------------采购中心首页 wxm 2014.8.11 end------------------------*
+
+/* 卖家会员信息的样式 */
+.seller { float:left; width:100%; }
+.seller .tx_fl { float:left; width:100px; height:100px; border:1px solid #eee; position:relative;} 
+.seller .tx_fl .set_off,.seller .tx_fl .set_on { position:absolute; right:0; top:0; margin:4px; width:67px; height:27px; background:url(../../images/set_off.gif) no-repeat 45px 4px;}
+.seller .tx_fl .set_on { background:url(../images/set_on.gif) no-repeat;}
+/*chenwenning*/
+.set_off1{ position:absolute; right:0; top:0; margin:4px; width:67px; height:27px; background:url(../../images/set_off.gif) no-repeat 45px 4px;}
+
+.seller .tx_fl li { float:left; width:44px; height:36px; text-align:center; padding:8px 0; color:#757575; border-right:1px solid #eee; border-top:1px solid #eee;}
+.seller .tx_fl li.nobr { border-right:none;}
+.seller .tx_fl span { width:20px; height:20px; display:block; margin:0 auto;}
+
+.seller .gs_fr { float:left; width:652px; margin-left:20px;}
+.seller .gs_fr h2 { font:100 18px/36px "Microsoft Yahei","Hiragino Sans GB";}
+.graph { position:relative; width:260px; height:12px; margin:9px 0; background:url(../images/jdt.jpg) no-repeat 0 -21px;}
+.graph .bar { display:block; height:12px; position:relative; background:url(../images/jdt.jpg) no-repeat 0 -5px; text-align:right;}
+.graph span { width:116px; display:inline-block;}
+
+.seller .gs_fr_bot { padding-top:5px; width:100%; clear:both}
+.seller .gs_fr_bot li { line-height:30px;}
+.seller .gs_fr_bot li a.blue { color:#0579c6;}
+.seller .gs_fr_bot li a.blue:hover { text-decoration:underline; color:#f60;}
+.seller .gs_fr_bot li.jy { float:left; height:22px; line-height:22px; margin-top:10px; color:#3c3c3c; clear:both; width:100%;}
+.seller .gs_fr_bot li.jy a { margin-right:10px; width:100px; height:22px; text-align:center; display:inline-block; *display:inline; zoom:1; background:#eee; position:relative;}
+.seller .gs_fr_bot li.jy a:link,.seller .gs_fr_bot li.jy a:visited { color:#757575;}
+.seller .gs_fr_bot li.jy a:hover,.seller .gs_fr_bot li.jy a:active { color:#fff; background:#336699; text-decoration:none;}
+.color_gray { color:#757575;}
+
+/* 采购管理 */
+.purchase_mg li { float:left; margin-left:22px; _margin-left:12px; height:30px; line-height:30px; color:#757575; clear:both; width:100%;}
+.purchase_mg li a { margin-right:4px; _margin-right:2px;}
+.purchase_mg li a:link,.purchase_mg li a:visited { color:#0579c6;}
+.purchase_mg li a:hover,.purchase_mg li a:active { text-decoration:underline; color:#f60;}
+
+/* 发布采购单 */
+/*自适应蓝色按钮*/
+.btnblue{ display:inline-block; height:31px; padding:0 0 0 24px; background:url(../../images/btn4.gif) no-repeat left -62px; vertical-align:middle}
+.btnblue span{ display:inline-block; height:23px; padding:4px 24px 4px 0; font:100 14px/23px "Microsoft Yahei","Hiragino Sans GB"; cursor:pointer; background:url(../../images/btn4.gif) no-repeat right -62px; }
+.btnblue:hover,.btnblue:active{ background-position:left -62px; text-decoration:none;}
+.btnblue:link span,.btnblue:visited span{ color:#fff;}
+.btnblue:hover span,.btnblue:active span{ background:url(../../images/btn4.gif) no-repeat right -62px}
+.fb_cgd { text-align:center; color:#757575;}
+.fb_cgd span.xx { color:#0579c6; display:block;}
+
+.cg_jdt { width:390px; height:30px; background:url(../../images/cgsm_bg.gif) no-repeat; display:inline-block; margin:35px auto 30px; position:relative; }
+.cg_jdt .tit01 { position:absolute; left:30px; top:-18px;}
+.cg_jdt .tit03 { position:absolute; left:210px; top:-18px;}
+.cg_jdt .tit02 { position:absolute; left:94px; top:30px;}
+.cg_jdt .tit04 { position:absolute; left:312px; top:30px;}
+
+/*采购滑动门样式*/
+.tag_cg dt{ padding:10px 0 0 10px; height:32px; background:#fafafa url(../../images/tag_cg.gif) repeat-x 0 10px;}
+.tag_cg dt a{ display:inline-block; height:32px; cursor:pointer; padding-left:10px; font:100 14px/32px "Microsoft Yahei","Hiragino Sans GB";}
+.tag_cg dt a span{ display:inline-block; height:32px; padding-right:10px; color:#757575; font:100 14px/32px "Microsoft Yahei","Hiragino Sans GB"; text-decoration:none;}
+
+.tag_cg dt a:hover,.tag_cg dt a:active{ text-decoration:none}
+.tag_cg dt a:link span,.tag_cg dt a:visited span{ color:#3c3c3c;}
+.tag_cg dt a.on{background:url(../../images/tag_cg.gif) no-repeat left -32px;}
+.tag_cg dt a.on span{ background:url(../../images/tag_cg.gif) no-repeat right -32px; padding-right:10px; height:32px; font:100 14px/32px "Microsoft Yahei","Hiragino Sans GB"; display:inline-block;}
+.tag_cg dd{ display:block; padding:6px 10px 12px; color:#757575; zoom:1; overflow:hidden;}
+.tag_cg dd ul { margin-top:12px;}
+.tag_cg dd li { clear:both;}
+.tag_cg dd li a.list01{ float:left; color:#757575; width:253px; padding:5px 0 5px 10px;}
+.tag_cg dd li span { float:right; width:132px; padding:5px 0;}
+.list02{ float:left; color:#757575; width:395px; padding:5px 0 5px 10px;}
+/* 最近收藏 */
+.store_img { padding:5px 1px;zoom:1; overflow:hidden;}
+.store_img li { float:left; margin:10px 12px; width:80px;}
+.store_img span{width:80px; height:80px; display:table-cell; vertical-align:middle; text-align:center; *display:block; *font-size:80px; overflow:hidden;}
+.store_img span a{ display:block; width:80px;}
+.store_img span a img{width:expression(this.width>78&&this.width>this.height?78:true); height: expression(this.height>78?78:true); vertical-align:middle; max-width:78px; max-height:78px;}
+.store_img li p { float:left; margin-top:6px; height:26px; width:80px; line-height:26px; text-align:center; display:block;}
+.store_img li p a { color:#757575;}
+.store_img li p a:hover { color:#f60;}
+.sc_img { border:1px solid #fff;}
+.yelow_line { border:1px solid #f60;}
+
+/*为您推荐 滑动门样式*/
+.tag_tj dt{ padding:10px 0 0 100px; height:32px; background:#fafafa url(../../images/tag_cg.gif) repeat-x 0 10px; }
+.tag_tj dt a{ display:inline-block; height:32px; cursor:pointer; padding-left:10px; font:100 14px/32px "Microsoft Yahei","Hiragino Sans GB";}
+.tag_tj dt a span{ display:inline-block; height:32px; padding-right:10px; color:#757575; font:100 14px/32px "Microsoft Yahei","Hiragino Sans GB"; text-decoration:none;}
+
+.tag_tj dt a:hover,.tag_tj dt a:active{ text-decoration:none}
+.tag_tj dt a:link span,.tag_tj dt a:visited span{ color:#3c3c3c;}
+.tag_tj dt a.on{background:url(../../images/tag_cg.gif) no-repeat left -32px;}
+.tag_tj dt a.on span{ background:url(../../images/tag_cg.gif) no-repeat right -32px; padding-right:10px; color:#f60; height:32px; font:100 14px/32px "Microsoft Yahei","Hiragino Sans GB"; display:inline-block;}
+.tag_tj dd{ display:block; margin:0 10px;}
+
+/* 供应信息列表 */
+.tag_tj dd.supply ul { float:left; margin:12px 0; _overflow:hidden;}
+.tag_tj dd.supply li { float:left; margin:0 10px; width:82px;}
+
+.tag_tj dd.supply li span{width:82px; height:82px; display:table-cell; vertical-align:middle; text-align:center; *display:block; *font-size:100px; overflow:hidden;}
+.tag_tj dd.supply li span a{ display:block; width:82px;}
+.tag_tj dd.supply li span a img{width:expression(this.width>80&&this.width>this.height?80:true); height: expression(this.height>80?80:true); vertical-align:middle; max-width:80px; max-height:80px;}
+.tag_tj dd.supply li p { float:left; margin-top:6px; height:26px; width:82px; line-height:26px; text-align:center; display:block;}
+.tag_tj dd.supply li p a { color:#757575;}
+.tag_tj dd.supply li p a:hover { color:#f60;}
+
+.tag_tj dd.supply li.nocont { width:100%;}
+
+.sc_img { border:1px solid #fff;}
+.yelow_line { border:1px solid #f60;}
+.tj_f14 {font:100 14px/22px "Microsoft Yahei","Hiragino Sans GB"; position:absolute; left:10px; top:10px; }
+.font_18 {font:100 18px/22px "Microsoft Yahei","Hiragino Sans GB";}
+
+/* 公司列表 */
+.tag_tj dd.company ul { float:left; margin:8px 0; overflow:hidden;}
+.tag_tj dd.company li { float:left; width:200px; height:50px; padding:9px 0 0 4px; border-bottom:1px dashed #ccc;}
+.tag_tj dd.company li span { float:left; margin:0 15px 5px 0; width:176px; color:#757575; display:inline-block;}
+.tag_tj dd.company li span a:link,.tag_tj dd.company li span a:visited { color:#3c3c3c;}
+.tag_tj dd.company li span a:hover,.tag_tj dd.company li span a:active { color:#f60;}
+
+/* 低价商机推荐 */
+.low_price li.xx_list { clear:both; margin-left:20px; color:#3c3c3c; overflow:hidden;}
+.low_price li.xx_list a { margin-left:6px; color:#3c3c3c; padding:5px 0; display:inline-block;}
+.low_price li.xx_list a:hover { color:#f60;}
+.low_price li.xx_list span { padding:5px 0; display:inline-block;}
+.low_price_cont { height:152px; padding-top:10px;}
+.low_price_cont2 { height:160px; padding-top:2px;}
+.low_price_cont2 li { margin-top:4px; /* clear:both; */ margin-left:20px; color:#3c3c3c; /* overflow:hidden; */}
+.low_price_cont2 li label { width:70px; text-align:right; padding:6px 0; display:inline-block;}
+.low_price_cont2 li input.text02 { border: 1px solid #ccc; height: 24px; width:240px;}
+
+/* 行业信息 */
+.hy_infor_cont { height:152px; padding-top:10px;}
+.hy_infor_cont ul { float:left; width:286px; }
+.hy_infor_cont li { float:left; margin-left:20px; width:368px; color:#3c3c3c; overflow:hidden;}
+.hy_infor_cont li a { margin-left:6px; color:#3c3c3c; padding:5px 0; display:inline-block;}
+.hy_infor_cont li a:hover { color:#f60;}
+.hy_infor_cont li span { padding:5px 0; display:inline-block;}
+
+.hy_infor_cont .ad_hy_infor { float:right; width:80px; height:80px; display:inline-block; border:1px solid #eee;}
+
+.hy_infor_cont2 { display:none; float:left; margin-left:20px; width:366px; color:#3c3c3c;/*overflow:hidden;*/}
+.hy_infor_cont2 .smwz { float:left; padding:6px 0; margin-top:10px; clear:both;}
+
+/* 设置样式 */
+.set_off { float:right; margin:8px 10px 0 0; width:67px; height:27px; background:url(../../images/set_off.gif) no-repeat 45px 4px;}
+.set_on { float:right; margin:8px 10px 0 0; width:67px; height:27px; background:url(../../images/set_on.gif) no-repeat;}
+.z_w80{ width:80px;}
+
+.btn_bc{ float:left; display:inline-block; height:26px; line-height:26px; padding:0 20px; background:#206198; color:#fff; border:none; cursor:pointer;}
+
+/* 浏览记录 */
+.arrow { display:block; height:22px; width:15px; background:url(../images/arrow.png) no-repeat 0 0; text-indent: -999px; position: absolute; top:85px; cursor: pointer;}
+.forward { background-position:1px -48px; right:4px;}
+.back { background-position:1px 0; left: 4px;}
+.forward:hover { background-position: 1px -73px;}
+.back:hover { background-position:1px -24px;}
+
+/* 个人首页 我的询盘 wxm 2014.8.19 */
+.gr_xpbox { padding-top:12px; height:129px;}
+.gr_xpbox li { clear:both;}
+.gr_xpbox li a.list01{ float:left; color:#757575; width:253px; padding:5px 0 5px 20px;}
+.gr_xpbox li span { float:right; width:130px; padding:5px 0;}
+/*-------9.16 du--------*/
+.heighta{
+	height:124px;
+}
+.low_price{
+	height:164px;
+	border-right: 1px solid #eee;
+}
+.margin-t{
+	margin-top:5px
+}
+.mt20 {
+    margin-top: 20px;
+}
+.ml10{
+	margin-left:10px
+}
+.ml11{
+	margin-left: 8px;
+}
+.jinhouhta{
+	line-height: 120px;
+	text-align: center;
+}
+.mt-1{
+	margin-left:-1px;
+	border-left:1px solid #eee;
+}

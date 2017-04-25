@@ -1,0 +1,99 @@
+/* 地区选择 */
+.width710 {
+    width: 360px;
+}
+.z_index {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    display: none;
+    left: 70px;
+    position: absolute;
+    z-index: 9999;
+    top:-326px;
+}
+
+.tck_main {
+    padding: 10px;
+    width: 340px;
+}
+.tck_main li {
+    border-bottom: 1px dashed #CCCCCC;
+    display: inline;
+    float: left;
+    height: 20px;
+    padding: 2px 0;
+    width: 80px;
+    margin-left:4px;
+}
+.form .radio { margin-top:2px;}
+.tck_main li label {
+    display: inline-block;
+    margin-right: 10px;
+    width: 40px;
+    text-align:left;
+    padding:0;
+}
+.sele_box {
+    border: 1px solid #CCCCCC;
+    padding: 5px 2px;
+    display:inline-block;
+}
+.dwli {
+    position: relative;
+}
+.in415 { width:406px;}
+.sele_box .item-list .multi-li, .add_bor .item-list .multi-li {
+    background-color: #EFEFEF;
+    border: 1px solid #C0C3C3;
+    cursor: default;
+    float: left;
+    height: 14px;
+    line-height: 14px;
+    margin: 1px 2px 1px 0;
+    overflow-y: hidden;
+    padding: 0 2px;
+    white-space: nowrap;
+}
+.sele_box .item-list .multi-li span, .add_bor .item-list .multi-li span {
+    vertical-align: middle;
+}
+.sele_box .item-list li span, .add_bor .item-list li span {
+    border: 0 none;
+}
+.sele_box li .item, .add_bor li .item {
+    border: 1px solid #C0C3C3;
+    border-radius: 2px 2px 2px 2px;
+    height: 14px;
+    line-height: 14px;
+    padding: 1px;
+}
+.sele_box .item-list .del-item, .item-list .del-item {
+    background: url("../../images/close4.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    height: 12px;
+    line-height: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 15px;
+}
+.sele_box .item-list .del-item:hover, .item-list .del-item:hover {
+    background-position: 0 -12px;
+}
+
+#checkMessages { width:240px; height:64px; display:inline-block;}
+
+/* 新加样式 */
+.ml15 {margin-left: 15px;}
+.mt3 { margin-top: 3px;}
+.mt20 { margin-top: 20px;}
+.btnBlue { background: url("../../images/btn01.gif") no-repeat scroll left -33px rgba(0, 0, 0, 0);display: inline-block;height: 37px;padding: 0 0 0 28px;vertical-align: middle;}
+.btnBlue span { background: url("../../images/btn01.gif") no-repeat scroll right -33px rgba(0, 0, 0, 0);color: #fff;cursor: pointer; display: inline-block; font: 100 14px/29px "Microsoft Yahei","Hiragino Sans GB";height: 29px; padding: 4px 28px 4px 0;}
+.btnGray2 {background: url("../../images/btn01.gif") no-repeat scroll left -126px rgba(0, 0, 0, 0);display: inline-block;height: 24px;padding: 0 0 0 12px; vertical-align: middle;}
+.btnGray2 span {background: url("../../images/btn01.gif") no-repeat scroll right -126px rgba(0, 0, 0, 0);cursor: pointer;display: inline-block;font: 100 12px/16px "Microsoft Yahei","Hiragino Sans GB";height: 16px; padding: 4px 12px 4px 0;}
+.form .radio {margin-right: 3px; margin-top: -3px;vertical-align: middle;}
+.btnGray {background: url("../../images/btn01.gif") no-repeat scroll left -78px rgba(0, 0, 0, 0);display: inline-block;height: 37px;padding: 0 0 0 24px;vertical-align: middle;}
+.btnGray span {background: url("../../images/btn01.gif") no-repeat scroll right -78px rgba(0, 0, 0, 0); cursor: pointer;display: inline-block; font: 100 14px/29px "Microsoft Yahei","Hiragino Sans GB"; height: 29px; padding: 4px 24px 4px 0;}
+a.lblue { color: #0088cc;}
+.textR { text-align: right;}

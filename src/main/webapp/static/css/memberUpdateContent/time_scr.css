@@ -1,0 +1,64 @@
+﻿@charset "utf-8";
+.time_wrap{ background:url(../../images/updateContent/tim_top.jpg) center top #f7f7f7 no-repeat; font-family:"Microsoft Yahei","Hiragino Sans GB"}
+.time_cont{ width:980px; margin:0 auto; padding-top:286px; position:relative}
+.time-main{width:980px;margin:0 auto;overflow:hidden;zoom:1;
+	font:normal 12px/22px Microsoft Yahei, Hiragino Sans GB;color:#3c3c3c;background:url(../../images/updateContent/bg.png) repeat-y center top;}
+.time-main .t-con{overflow:hidden;zoom:1;padding-bottom:30px;}
+.time-main .inner{text-align:center;}
+.time-main img{margin:0 auto;}
+.time-main h3{width:86%;margin:0 auto;font-size:14px;padding:21px 0; font-weight:normal;text-align:left;}
+.time-main p{width:88%;margin:0 auto;text-align:left; line-height:22px; }
+
+.time-main li{position:relative;width:370px;padding:10px;margin-top:20px;border:1px solid #ccc; background-color:#fff;
+	-moz-box-shadow:0 1px 3px #cbcbcb;
+	-webkit-box-shadow:0 1px 3px #cbcbcb;
+	behavior: url(PIE.htc);
+	box-shadow: 1px 1px 3px 0 #cbcbcb;
+    
+	-moz-border-radius: 10px;
+    -webkit-border-radius:10px;
+	border-radius:10px;
+	behavior: url(css/iecss3.htc); 
+}
+.time-main li .p{position:absolute;width:81px;height:22px;background:#d66; }
+.time-main li .p a{position:relative;display:block;width:100%;height:22px;}
+.time-main li .p a:hover .ht{display:block;}
+.time-main li .p a .ht{position:absolute;display:none;width:65px;height:24px; font-weight:bold;
+	background:url(../../images/updateContent/p.png);text-align:center;color:#fff;padding-top:7px;line-height:24px;
+	-moz-border-radius:6px;
+    -webkit-border-radius:6px;
+	border-radius:6px; z-index: 20;}
+
+.time-main li.l{display:inline;float:left;margin-left:30px; clear:left;_margin-left:31px; +margin-left:31px; margin-left:31px\0;}
+.time-main li.l .p{top:50px;right:-80px;}
+.time-main li.l .p a{background:url(../../images/updateContent/l-pd.png);}
+.time-main li.l .p a:hover{background:url(../../images/updateContent/l-hd.png); text-decoration:none;}
+.time-main li.l .p a .ht{right:-24px;bottom:-31px;}
+
+.time-main li.r{display:inline;float:right;margin-right:29px; clear:right; _margin-right:28px; +margin-right:28px; margin-right:28px\0;}
+.time-main li.r .p{top:10px;left:-81px;}
+.time-main li.r .p a{background:url(../../images/updateContent/r-pd.png);}
+.time-main li.r .p a:hover{background:url(../../images/updateContent/r-hd.png);}
+.time-main li.r .p a .ht{left:-24px;bottom:-31px;}
+
+
+.time-main .this-time{width:96%;margin:10px auto 0 auto;background:#f2f2f2;overflow:hidden;zoom:1;text-align:left;vertical-align: middle; height:28px; line-height:28px;}
+.time-main .this-time p{ color:#adadad; font-weight:bold;background: url(../../images/updateContent/ico-l.png) no-repeat left center; padding-left:24px; margin-left:17px; width:60%; line-height:28px;}
+.time-main .this-time .like{ font-weight:bold; color:#adadad;float:right;padding:0 10px 0 20px;background:url(../../images/updateContent/ico-x.png) no-repeat left center;}
+.time-main .this-time .like:hover{ text-decoration:none; background:url(../../images/updateContent/ico-xh.gif) no-repeat left center}
+.ico-img{
+    display: inline-block;width:16px;height:16px;
+    overflow: hidden;margin-right:20px;vertical-align: middle;
+    background:url(../../images/updateContent/ico-txt.png) no-repeat left center;}
+.ico-img_z{ background:url(../../images/updateContent/z_ic1.gif) no-repeat left center;}
+.ico-txt{
+    display: inline-block;width:16px;height:16px;
+    overflow: hidden;margin-right:20px;vertical-align: middle;
+    background:url(../../images/updateContent/ico-txt.png) no-repeat left center;}
+.t_ico{ 
+    background:url(../../images/updateContent/t_ico.gif) no-repeat;  width:65px; display:block; margin:0 auto;
+    border-radius: 6px; color: #FFFFFF;  height: 24px; line-height: 24px; text-align: center; width: 65px;}
+.z_plan{ height:53px; margin:15px 20px}
+/* .time-main p.plan_p{line-height:53px; font-size:14px; width:80%;height:53px;} */
+.time-main p.plan_p{font-size:14px; width:80%; height:53px;display: table-cell;vertical-align: middle;float:none;width:auto;padding-left: 10px;}
+.time-main p.plan_p a,.time-main p a{ color:#0066cc}

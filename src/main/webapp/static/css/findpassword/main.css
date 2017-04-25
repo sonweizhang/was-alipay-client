@@ -1,0 +1,169 @@
+@charset "UTF-8";
+.ZS-body, .ZS-input-wrap, .ZS-input-wrap .ZS-input-box, .ZS-labeller, .Zf-body, .Zf-supply-wrap h3, .ZC-popup-box .ZC-body { position: relative; }
+
+.ZS-body h3, .ZS-body .ZS-btn-bg, .ZS-body .ZS-prev-btn, .ZS-body .ZS-back-btn, .ZS-input-wrap .ZS-input-box ul, .ZS-input-wrap .ZS-input-box b, .ZS-labeller .ZS-icon, .ZS-labeller .ZS-lable-box, .Zf-body h3, .Zf-icon, .Zf-supply-wrap h3 p, .ZC-popup-box .ZC-body .ZC-btn, .ZC-popup-box .ZC-close { position: absolute; }
+
+.Z-body-input-box-wrap, .ZS-input-wrap { clear: both; }
+
+.Z-body .Z-step-next, .Z-body-input-box-wrap .Z-body-input-box span, .Z-body-input-box-wrap .Z-body-input-box .Z-test, .ZS-success, .ZS-body h3, .ZS-body .ZS-prev-btn, .ZS-body .ZS-back-btn, .ZS-labeller .ZS-lable-box, .Zf-success, .Zf-body h3, .ZC-popup-box .ZC-body .ZC-btn { text-align: center; }
+
+.Z-body, .Z-footer-list li, .Zf-supply-wrap, .Zf-supply-wrap li .Zf-img { overflow: hidden; }
+
+input { outline: none; }
+
+body { min-width: 1190px; }
+
+/* 注册页-顶部 */
+.Z-header-wrap { padding-top: 10px; width: 100%; height: 90px; }
+.Z-header { margin: 0 auto; width: 1190px; font-family: "Microsoft Yahei", "Hiragino Sans GB"; }
+.Z-header .Z-wk-logo { float: left; }
+.Z-header .Z-wk-logo img { width: 180px; height: 79px; }
+.Z-header-left { padding-left: 15px; float: left; width: 120px; height: 70px; }
+.Z-header-left p { padding-top: 12px; font-size: 24px; color: #999999; line-height: 36px; }
+.Z-header-left span { font-size: 16px; color: #f90; }
+.Z-header-right { float: right; width: 290px; text-align: right; }
+.Z-header-right p { padding-top: 12px; font-size: 16px; color: #999999; line-height: 36px; }
+.Z-header-right p a { color: #f90; }
+.Z-header-right p a:hover { text-decoration: underline; }
+.Z-header-right span { font-size: 16px; color: #f90; }
+
+/* 注册页-顶部下方渐变条纹 */
+.Z-header-line { width: 100%; height: 10px; background: url(../images/header-repeat.jpg) repeat-x; }
+
+/* 注册进度 */
+.Z-body-flow { margin: 0 auto; width: 1190px; height: 230px; }
+.Z-body-flow.Z-flow-01 { background: url("../images/flow.png") no-repeat center top; }
+.Z-body-flow.Z-flow-02 { background: url("../images/flow01.png") no-repeat center top; }
+.Z-body-flow.Z-flow-03 { background: url("../images/flow02.png") no-repeat center top; }
+
+/* 注册主体-表达部分 */
+.Z-body { margin: 0 auto; padding-left: 398px; padding-bottom: 40px; width: 800px; font-family: "Microsoft Yahei", "Hiragino Sans GB"; }
+.Z-body-input-box-wrap { height: 54px; margin-bottom: 32px; }
+.Z-body-input-box-wrap .Z-body-input-box { float: left; width: 398px; height: 52px; border-width: 1px; border-style: solid; border-color: #e6e6e6; }
+.Z-body-input-box-wrap .Z-body-input-box.Z-body-input-box-read { color: #555555; background-color: #f8f8f8; }
+.Z-body-input-box-wrap .Z-body-input-box.Z-error { border-width: 1px; border-style: solid; border-color: #f00; }
+.Z-body-input-box-wrap .Z-body-input-box span { float: left; width: 110px; height: 52px; line-height: 52px; font-size: 14px; color: #555555; }
+.Z-body-input-box-wrap .Z-body-input-box input { margin-top: 18px; width: 130px; height: 16px; font-size: 14px; line-height: 16px; color: #ccc; float: left; }
+.Z-body-input-box-wrap .Z-body-input-box h3 { float: left; width: 160px; height: 52px; font-weight: normal; line-height: 52px; }
+.Z-body-input-box-wrap .Z-body-input-box .Z-test { margin: 3px 3px 0 0; float: right; width: 110px; height: 46px; vertical-align: top; }
+.Z-body-input-box-wrap .Z-body-input-box .Z-test img { width: 110px; height: 46px; }
+.Z-body-input-box-wrap .Z-body-input-box .Z-test.Z-test-text { background-color: #f2f2f2; line-height: 46px; font-size: 14px; color: #555555; }
+.Z-body-input-box-wrap .Z-body-input-box .Z-safe { margin: 20px 9px 0 0; float: right; width: 141px; height: 14px; }
+.Z-body-input-box-wrap .Z-body-input-box .Z-safe.Z-safe01 { background: url(../images/sprite.png) no-repeat 0 -280px; }
+.Z-body-input-box-wrap .Z-body-input-box  .Z-safe.Z-safe02 { background: url(../images/sprite.png) no-repeat 0 -299px; }
+.Z-body-input-box-wrap .Z-body-input-box .Z-safe.Z-safe03 { background: url(../images/sprite.png) no-repeat 0 -319px; }
+.Z-body-input-box-wrap .Z-body-error { margin-left: 10px; float: left; }
+.Z-body-input-box-wrap .Z-body-error i { float: left; width: 14px; height: 18px; }
+.Z-body-input-box-wrap .Z-body-error i.i01 { margin: 19px 10px 0 0; background: url(../images/sprite.png) 0 -68px; }
+.Z-body-input-box-wrap .Z-body-error i.i02 { margin: 19px 10px 0 0; background: url(../images/sprite.png) 0 -108px; }
+.Z-body-input-box-wrap .Z-body-error i.i03 { margin: 19px 10px 0 0; background: url(../images/sprite.png) 0 -86px; }
+.Z-body-input-box-wrap .Z-body-error span { line-height: 54px; font-size: 14px; float: left; }
+.Z-body-input-box-wrap .Z-body-error span.color01 { color: #ff0000; }
+.Z-body-input-box-wrap .Z-body-error span.color02 { color: #999999; }
+.Z-body label { font-size: 14px; color: #555555; }
+.Z-body label span { color: #ff6600; }
+.Z-body .Z-step-next { margin-top: 32px; width: 400px; height: 52px; font-size: 22px; color: #ffffff; line-height: 52px; background-color: #ff6600; cursor: pointer; }
+
+/* 注册第三步骤 - 注册成功 */
+.ZS-success { margin: 0 auto; width: 1000px; height: 66px; font-size: 24px; color: #6c6; font-family: "Microsoft Yahei", "Hiragino Sans GB"; }
+.ZS-success i { margin: -12px -60px 0 100px; float: left; width: 47px; height: 47px; background: url(../images/sprite.png) no-repeat -30px -70px; }
+
+/* 注册第三步骤 - 主体 */
+.ZS-body { padding: 70px 0; margin: 0 auto; width: 998px; height: 388px; border-width: 1px; border-style: solid; border-color: #e6e6e6; font-family: "Microsoft Yahei", "Hiragino Sans GB"; }
+.ZS-body h3 { top: -24px; left: 330px; width: 390px; height: 40px; font-size: 28px; color: #ff6600; font-weight: normal; line-height: 40px; background-color: #fff; }
+.ZS-input-wrap { margin-bottom: 20px; height: 38px; z-index: 1; }
+.ZS-input-wrap label { margin-left: 10px; height: 38px; line-height: 38px; font-size: 14px; }
+.ZS-input-wrap label input { margin-right: 4px; vertical-align: middle; }
+.ZS-input-wrap.ZS-input-wrap-index { z-index: 2; }
+.ZS-input-wrap .ZS-name { margin-right: 15px; float: left; width: 170px; height: 38px; font-size: 14px; color: #555555; line-height: 38px; text-align: right; }
+.ZS-input-wrap .ZS-input-box { float: left; width: 278px; height: 36px; border-width: 1px; border-style: solid; border-color: #e6e6e6; }
+.ZS-input-wrap .ZS-input-box.ZS-input-box-both { width: 135px; margin-right: 6px; }
+.ZS-input-wrap .ZS-input-box.ZS-input-box-both input { width: 128px; }
+.ZS-input-wrap .ZS-input-box.ZS-input-box-red-border { border-width: 1px; border-style: solid; border-color: red; }
+.ZS-input-wrap .ZS-input-box ul { top: 36px; left: -1px; width: 278px; border-width: 1px; border-style: solid; border-color: #e6e6e6; background-color: #ffffff; }
+.ZS-input-wrap .ZS-input-box ul li { padding-left: 6px; height: 38px; line-height: 38px; font-size: 14px; color: #ccc; cursor: pointer; }
+.ZS-input-wrap .ZS-input-box ul li:hover { background-color: #f8f8f8; }
+.ZS-input-wrap .ZS-input-box input { float: left; margin: 10px 0 0 6px; width: 200px; height: 16px; line-height: 18px; font-size: 14px; color: #ccc; }
+.ZS-input-wrap .ZS-input-box b { right: 0; top: 0; width: 38px; height: 38px; background: url(../images/sprite.png) no-repeat -80px -66px; cursor: pointer; }
+.ZS-input-wrap .ZS-error-box { width: 510px; }
+.ZS-input-wrap .ZS-error-box.ZS-error-offset { margin-left: 4px; }
+.ZS-input-wrap .ZS-error-box i.i01 { margin: 10px 10px 0 0; }
+.ZS-input-wrap .ZS-error-box i.i02 { margin: 10px 10px 0 0; }
+.ZS-input-wrap .ZS-error-box i.i03 { margin: 10px 10px 0 0; }
+.ZS-input-wrap .ZS-error-box span { width: 480px; line-height: 38px; }
+.ZS-input-wrap .ZS-error-box span.mul-span { line-height: 20px; }
+.ZS-input-wrap .ZS-error-box span.color01 { color: #ff0000; }
+.ZS-input-wrap .ZS-error-box span.color02 { color: #999999; }
+.ZS-body .ZS-btn-bg { bottom: -22px; left: 430px; width: 200px; height: 50px; background-color: #fff; }
+.ZS-body .ZS-prev-btn { bottom: -22px; left: 290px; width: 200px; height: 50px; font-size: 22px; background-color: #f60; line-height: 50px; color: #fff; cursor: pointer; }
+.ZS-body .ZS-prev-btn:hover { background-color: #ff4800; }
+.ZS-body .ZS-back-btn { bottom: -22px; left: 512px; width: 200px; height: 50px; font-size: 22px; background-color: #f8f8f8; line-height: 50px; color: #ccc; cursor: pointer; }
+.ZS-body .ZS-back-btn:hover { background-color: #f2f2f2; }
+
+/* 底部优势 */
+.Z-footer-list-wrap { padding-top: 34px; width: 100%; height: 86px; background-color: #f8f8f8; border-bottom: 1px solid #e6e6e6; }
+
+.Z-footer-list { margin: 0 auto; padding-left: 30px; width: 870px; height: 86px; }
+.Z-footer-list li { float: left; width: 290px; height: 60px; }
+.Z-footer-list li i { float: left; width: 60px; height: 60px; }
+.Z-footer-list li i.i01 { background: url(../images/sprite.png) no-repeat -3px -1px; }
+.Z-footer-list li i.i02 { background: url(../images/sprite.png) no-repeat -70px -1px; }
+.Z-footer-list li i.i03 { background: url(../images/sprite.png) no-repeat -140px -1px; }
+.Z-footer-list li p { margin-left: 10px; margin-top: 10px; width: 220px; float: left; font-size: 14px; line-height: 24px; color: #ff6600; }
+.Z-footer-list li span { margin-left: 10px; width: 220px; float: left; color: #999999; }
+
+/* 贴签 */
+.ZS-labeller { margin: 0 auto; margin-top: 100px; width: 920px; height: 10px; border-bottom: 1px dashed #e6e6e6; }
+.ZS-labeller .ZS-icon { width: 200px; height: 52px; cursor: pointer; }
+.ZS-labeller .ZS-icon.ZS-icon1 { top: 60px; left: 250px; background: url(../images/sprite.png) no-repeat 0 -152px; }
+.ZS-labeller .ZS-icon.ZS-icon2 { top: 60px; left: 470px; background: url(../images/sprite.png) no-repeat -220px -152px; }
+.ZS-labeller .ZS-lable-box { top: -3px; left: 290px; width: 368px; height: 26px; line-height: 26px; font-size: 18px; color: #333333; background-color: #fff; }
+
+/* 广告图 */
+.ZS-ad { margin: 140px auto 40px; width: 1190px; height: 90px; }
+.ZS-ad img { width: 1190px; height: 90px; }
+
+.Zf-ad { margin: 0 auto; margin-top: 130px; width: 1190px; height: 90px; }
+.Zf-ad img { width: 1190px; height: 90px; }
+
+/* 第四步骤 */
+.Zf-success { margin: 0 auto; width: 1000px; margin-top: 40px; height: 100px; font-size: 24px; color: #6c6; font-family: "Microsoft Yahei", "Hiragino Sans GB"; }
+.Zf-success p { font-size: 18px; color: #333; line-height: 70px; text-indent: -3em; }
+.Zf-success p span { color: #f00; }
+.Zf-success i { margin: -12px -240px 0 300px; float: left; width: 47px; height: 47px; background: url(../images/sprite.png) no-repeat -30px -70px; }
+
+/* 注册第四步骤 */
+.Zf-body { margin: 0 auto; width: 1196px; height: 28px; border-bottom: 1px dashed #e6e6e6; font-family: "Microsoft Yahei", "Hiragino Sans GB"; }
+.Zf-body h3 { padding: 0 10px; top: 5px; left: 280px; height: 40px; font-size: 18px; color: #333; font-weight: normal; line-height: 40px; background-color: #fff; }
+.Zf-body h3 span { color: #f60; }
+
+.Zf-icon { width: 200px; height: 52px; }
+.Zf-icon.Zf-icon1 { top: 60px; left: 180px; background: url(../images/sprite.png) no-repeat 0 -152px; }
+.Zf-icon.Zf-icon2 { top: 60px; left: 390px; background: url(../images/sprite.png) no-repeat -220px -152px; }
+.Zf-icon.Zf-icon3 { top: 60px; left: 600px; background: url(../images/sprite.png) no-repeat 0 -214px; }
+.Zf-icon.Zf-icon4 { top: 60px; left: 810px; background: url(../images/sprite.png) no-repeat -220px -214px; }
+
+/* 最新供应 */
+.Zf-supply-wrap { margin: 0 auto; margin-top: 60px; width: 1190px; height: 350px; font-family: "Microsoft Yahei", "Hiragino Sans GB"; }
+.Zf-supply-wrap h3 { height: 38px; border-bottom: 2px solid #e6e6e6; }
+.Zf-supply-wrap h3 p { border-bottom: 2px solid #f60; width: 70px; font-size: 16px; line-height: 38px; }
+.Zf-supply-wrap h3 p span { color: #f60; }
+.Zf-supply-wrap ul { float: left; margin-left: -20px; }
+.Zf-supply-wrap li { float: left; margin-top: 20px; margin-left: 20px; width: 222px; height: 270px; }
+.Zf-supply-wrap li .Zf-img { width: 222px; height: 223px; background-color: #ccc; }
+.Zf-supply-wrap li p { width: 220px; height: 30px; line-height: 30px; word-break: keep-all; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* 注册遮罩层 */
+.ZC-popup-bg { position: fixed; top: 0; left: 0; background-color: #7f7f7f; opacity: 0.5; filter: alpha(opacity=50); }
+
+.ZC-popup-box { position: fixed; top: 140px; left: 50%; width: 460px; height: 452px; margin-left: -230px; }
+.ZC-popup-box .ZC-body { width: 460px; height: 416px; background: url("../images/popup-box.png") no-repeat center top; }
+.ZC-popup-box .ZC-body .ZC-btn { bottom: 30px; width: 130px; height: 36px; font-size: 18px; color: #ffffff; line-height: 36px; cursor: pointer; }
+.ZC-popup-box .ZC-body .ZC-btn.ZC-save { left: 90px; background: url(../images/sprite.png) no-repeat -220px 0; }
+.ZC-popup-box .ZC-body .ZC-btn.ZC-save:hover { background: url(../images/sprite.png) no-repeat -360px 0; }
+.ZC-popup-box .ZC-body .ZC-btn.ZC-leave { left: 240px; background: url(../images/sprite.png) no-repeat -360px 0; }
+.ZC-popup-box .ZC-body .ZC-btn.ZC-leave:hover { background: url(../images/sprite.png) no-repeat -220px 0; }
+.ZC-popup-box .ZC-close { right: 0px; top: -34px; width: 36px; height: 36px; background: url(../images/sprite.png) no-repeat -220px -60px; cursor: pointer; }
+.ZC-popup-box .ZC-close:hover { background: url(../images/sprite.png) no-repeat -270px -60px; }
+
+/**/

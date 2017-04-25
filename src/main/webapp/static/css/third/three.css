@@ -1,0 +1,54 @@
+
+/*王鑫  4-14*/
+
+/*----登录与绑定-----*/
+.disanfang{width:998px;border:1px solid #ffddb2; height:84px; margin:0 auto; background:#ffffe0; margin-bottom:20px;}
+.THREE{ float:left; margin-top:23px; margin-left:70px;}
+.THREE img{ width:40px;}
+.from{ line-height:84px; font-size:14px; font-weight:600; float:left; margin-left:25px;}
+
+.content0{width:998px;border:1px solid #ccc;margin:0 auto; background:#fff;}
+.content_notice0 {width:431px; height:362px; border:none; margin:30px 72px 72px; border-right:1px dashed #d1d1d1;  zoom:1; overflow:hidden; float:left;}
+.sz-number{ width:362px; height:32px; border-bottom:#9a9a9a 1px dashed; font-size:16px; color:#626262; line-height:34px; margin-top:42px;}
+.accountForm_0{float:left;width:362px;margin-top:30px;}
+.form .item_0{height: 67px;line-height: 34px;}
+.label_0{ float:left;color: #999999;font-size: 14px;width:90px;font-weight:bold;color:#757575;}
+.item_info_0{ position:relative;width:264px;}
+.form .text_0 {
+    border: 1px solid #CCC;
+    color: #999;
+    float: none;
+    font-family: arial,"宋体";
+    font-size: 12px;
+    height: 16px;
+    padding: 10px 5px 10px 25px;
+    width: 240px;
+}
+.zhengque img{display:inline-block; margin-top:10px; float:left;}
+.zhengque span{ display:inline-block; margin-left:5px; color:#757575; float:left;}
+.getYzm0{ background:#ff9933;width:270px;height:36px;cursor:pointer;display:inline-block;text-align:center;line-height:36px;font-size:12px; border:1px solid #fb883b; margin-left:90px; color:#fff; font-size:16px; font-weight:600;}
+*+html .getYzm0{margin-top:5px;}
+.accountInfo_0{ float:left; margin-top:72px; padding:0;}
+/* .accountInfo_0 form .text{ width:294px; margin-bottom:10px;} */
+.clear{ clear:both;}
+.bd-number{ width:362px; height:32px; border-bottom:#9a9a9a 1px dashed; font-size:16px; color:#626262; line-height:34px;}
+.others_0{padding-left:70px; height:60px; margin-top:5px;}
+.agree_out_0{ width:294px; height:34px; text-align:center; line-height:34px;}
+.font_bd{ color:#aaa; line-height:16px; margin-top:10px;}
+.agreebundling_0{ background:#eaeaea; border:1px solid #e1e1e1; display:block;width: 286px;height: 34px;font-size:16px; font-weight:600; line-height:36px; text-align:center; color:#757575; margin-top:10px;}
+*+html .agreebundling_0{ margin-top:3px; margin-left:-5px;}
+.label{color: #999999;font-size: 14px;text-align: right;width:60px;font-weight:bold;color:#757575;}
+.form .label{float:left;}
+
+
+
+
+
+
+
+
+
+
+
+
+
